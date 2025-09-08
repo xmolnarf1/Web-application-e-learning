@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="8307605d-ee80-4337-8bf9-7ad7d33131df" name="molnarserver">
+        <fileTransfer rootFolder="/var/www/html" accessType="SFTP" host="192.168.1.110" port="22" sshConfigId="135e1f8c-84e6-4fc3-a60c-cb669212364d" sshConfig="molnar@192.168.1.110:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

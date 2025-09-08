@@ -1,0 +1,314 @@
+@font-face {
+    font-family: "Taviraj";
+    src: url("../fonts/Taviraj/Taviraj-LightItalic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Josefin_Sans";
+    src: url("../fonts/Josefin_Sans/JosefinSans-Italic-VariableFont_wght.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Alegreya";
+    src: url("../fonts/Alegreya/Alegreya-VariableFont_wght.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Playwrite_DE_Grund";
+    src: url("../fonts/Playwrite_DE_Grund/PlaywriteDEGrund-VariableFont_wght.ttf") format("truetype");
+}
+
+
+body {
+    font-family: "Alegreya", sans-serif;
+    padding: 0;
+    margin: 0;
+    font-size: 1.25em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar{
+    background-color: #7a8793 !important;
+}
+
+.nav-link{
+    color: white !important;
+}
+
+.nav-link:hover{
+    color:  #dcdcdc !important;
+    transform: scale(1.1);
+}
+
+
+.footerOMne{
+    background-color: #7a8793 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+h1 {
+    text-align: center;
+    font-size: 2.6em;
+    /*margin: 0.7em 0;*/
+}
+
+.title {
+    background-color: #1995AD;
+    padding: 0.3em 0;
+    text-align: center;
+    box-shadow: 0 0.125em 0.3em rgba(0, 0, 0, 0.5);
+}
+
+.title h1 {
+    font-family: "Josefin_Sans", sans-serif;
+    font-size: 3em;
+    text-shadow: 0.1em 0.05em 0.1em rgba(0, 0, 0, 0.25);
+}
+
+h2 {
+    font-family: "Taviraj", sans-serif;
+    font-size: 2.3em;
+    /*text-align: center;*/
+}
+
+h3{
+    font-family: "Taviraj", sans-serif;
+    text-decoration: underline;
+}
+
+
+.opis1,
+.opis2{
+    font-family: "Merriweather", serif;
+}
+
+.form-control:focus{
+    border-color: #C9A66B;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.otazkyNazovBlockchain h3, .otazkyNazovDecentralizacia h3, .otazkyNazovKryptografia h3 {
+    font-family: "Josefin_Sans", sans-serif;
+    text-align: center;
+    font-size: 1.7em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*.typyKryptografie li, .typyDecentralizacie li {*/
+/*    margin-bottom: 2em;*/
+/*}*/
+
+
+/*.otazkyBlokchain, .otazkyDecentralizacia, .otazkyKryptografia {*/
+/*    text-align: center;*/
+/*    background-color: aliceblue;*/
+/*    border-radius: 10px;*/
+/*    box-shadow: 0.3em 0.5em 1em 0.3em rgba(0, 0, 0, 0.2);*/
+/*    padding: 0.2em;*/
+/*    margin: 1.2em 9em;*/
+/*}*/
+
+/*.otazkyDecentralizacia {*/
+/*    background-color: antiquewhite;*/
+/*}*/
+
+/*.otazkyKryptografia {*/
+/*    background-color: lavenderblush;*/
+/*}*/
+
+.otazka1, .otazka3 {
+    margin-bottom: 2em;
+}
+
+/*button,*/
+/*input[type="button"] {*/
+/*    margin-top: 1em;*/
+/*    background-color: #1995AD;*/
+/*    color: white;*/
+/*    padding: 0.3em 1.25em;*/
+/*    border: none;*/
+/*    border-radius: 0.2em;*/
+/*    font-size: 0.8em;*/
+/*    font-weight: bold;*/
+/*    cursor: pointer;*/
+/*}*/
+
+/*button{*/
+/*    margin-top: 1em;*/
+/*    background-color: #1995AD;*/
+/*    color: white;*/
+/*    padding: 0.3em 1.25em;*/
+/*    border: none;*/
+/*    border-radius: 0.2em;*/
+/*    font-size: 0.8em;*/
+/*    font-weight: bold;*/
+/*    cursor: pointer;*/
+/*}*/
+
+/*header {*/
+/*    background-color: #1995AD;*/
+/*    padding: 0.3em 0;*/
+/*    text-align: center;*/
+/*    box-shadow: 0 0.125em 0.3em rgba(0, 0, 0, 0.5);*/
+/*}*/
+
+/*.navigation a:hover {*/
+/*    background-color: #C9A66B;*/
+/*    color: white;*/
+/*    border-radius: 0.9em;*/
+/*}*/
+
+/*.navigation a {*/
+/*    font-family: Playwrite_DE_Grund, sans-serif;*/
+/*    color: #C9A66B;*/
+/*    text-decoration: none;*/
+/*    padding: 0.6em 0.9em;*/
+/*    font-size: 1em;*/
+/*}*/
+
+/*.navigation ul {*/
+/*    list-style-type: none;*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+
+/*}*/
+
+/*.navigation li {*/
+/*    display: inline-block;*/
+/*    margin: 0.3em 0.5em;*/
+/*}*/
+
+.headerTitle h1 {
+    font-family: Josefin_Sans, sans-serif;
+    text-align: center;
+    color: black;
+    text-shadow: 0.1em 0.05em 0.1em rgba(0, 0, 0, 0.25);
+    font-size: 2.8em;
+    margin-top: 1em;
+}
+
+
+
+.castVysledok {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2em 0;
+}
+
+.castVysledok p, /* Target the paragraphs inside castVysledok */
+.castVysledok div { /* Or any divs */
+    margin: 0; /* Remove extra margins */
+    line-height: 1.6; /* Adjust the line height */
+}
+
+
+.registrationForm {
+    display: none;
+}
+
+
+/*.loginForm{*/
+/*    display: none;*/
+/*}*/
+
+
+.registrationFormInputs,
+.loginFormInputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ktoJePrihlaseny {
+    position: absolute;
+    top: -0.7em;
+    right: 1em;
+    /*font-weight: bold;*/
+    color: #C9A66B;
+}
+
+.odhlasit {
+    position: absolute;
+    top: 1.4em;
+    right: 0.1em;
+    background: none;
+}
+
+
+
+/*label,*/
+/*input[type="text"]{*/
+/*    position: absolute;*/
+/*    left: 45%;*/
+
+/*}*/
+
+
+
+@media (max-width: 500px) {
+    body {
+        font-size: 1.1em;
+    }
+
+    .title h1 {
+        font-size: 2.2em;
+    }
+
+    h2 {
+        font-size: 1.7em;
+    }
+
+    .otazkyBlokchain, .otazkyDecentralizacia, .otazkyKryptografia {
+        margin: 1.2em;
+    }
+
+
+}
+
+

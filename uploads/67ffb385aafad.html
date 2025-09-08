@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>E-learning</title>
+
+    <link rel="icon" href="../images/favicon.ico">
+
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/bakalarScript.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+        <a class="navbar-brand font-weight-bold font-italic" href="#">E-learning</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navHamburger" aria-controls="navHamburger" aria-expanded="false">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navHamburger">
+            <ul class="navbar-nav ms-auto m-2">
+            </ul>
+        </div>
+        <a href="../logout.php" class="btn btn-danger">Odhlásiť</a>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="text-center mt-3 mt-lg-4">
+        <h2>Kryptografia</h2>
+    </div>
+
+    <div class="mt-3 mt-lg-4 col-12">
+        <p>Kryptografia zohráva kľúčovú úlohu v zabezpečení transakcií s kryptomenami a v zaručení ich integrity a
+            dôveryhodnosti.
+            Tento proces funguje na základe dvoch typov kryptografických kľúčov, ktoré sú spojené s každým používateľom
+            kryptomeny:
+        </p>
+    </div>
+
+    <div class="row mt-3 mt-lg-5 justify-content-center">
+        <div class="col-5 me-5">
+            <ul class="list-inline text-center">
+                <li class="list-inline-item text-capitalize">
+                    <strong>Verejný kľúč</strong>
+                </li>
+            </ul>
+            <p class="opis1 fst-italic">
+                Verejný kľúč funguje podobne ako číslo bankového účtu. Tento kľúč môže byť
+                bezpečne zdieľaný s inými ľuďmi,
+                pretože je potrebný na to, aby vám mohli poslať kryptomenu.
+                Keď niekto zadá váš verejný kľúč, transakcia sa spojí s vami, čím môžete prijímať prostriedky.
+            </p>
+        </div>
+
+        <div class="col-5">
+            <ul class="list-inline text-center">
+                <li class="list-inline-item text-capitalize">
+                    <strong>Súkromný kľúč</strong>
+                </li>
+            </ul>
+            <p class=" opis2 fst-italic">
+                Na rozdiel od verejného kľúča je súkromný kľúč tajný a nemal by byť nikdy zdieľaný s inými
+                osobami.
+                Tento kľúč sa používa na podpisovanie transakcií, čo potvrdzuje, že transakciu ste uskutočnili vy ako
+                vlastník kryptomeny.
+                Súkromný kľúč umožňuje prístup k prostriedkom uloženým na vašom účte spojenom s verejným kľúčom.
+                Ak by niekto získal váš súkromný kľúč, mal by plný prístup k vašim kryptomenám, preto je dôležité tento kľúč
+                chrániť a uchovávať na bezpečnom mieste.
+            </p>
+        </div>
+    </div>
+
+    <div class="mt-3 mt-lg-5">
+        <p>
+            Kombinácia týchto dvoch kľúčov zaisťuje, že transakcie sú bezpečné a nemožno ich sfalšovať.
+            Verejný kľúč umožňuje prijímanie prostriedkov, zatiaľ čo súkromný kľúč poskytuje kontrolu nad vaším majetkom.
+            Kryptografia tak vytvára vysokú úroveň ochrany pred neoprávneným prístupom a zabezpečuje, že iba vlastník
+            súkromného kľúča môže ovládať dané prostriedky.
+        </p>
+    </div>
+</div>
+
+
+<footer class="footerOMne mt-5 text-white p-3">
+    <div class="container text-center">
+        <p>2024 Autor: <i>Fridrich Molnár</i> <br> <strong>xmolnarf1</strong></p>
+    </div>
+</footer>
+
+<script src="../js/bootstrap.js"></script>
+
+</body>
+</html>
