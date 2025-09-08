@@ -9,23 +9,23 @@ It provides students, teachers, and administrators with tools for managing cours
 
 ## Features
 
- **User Roles:** Student, Teacher, Administrator  
- **Course & Lesson Management**  
- **Quiz System** with score tracking  
- **Multilingual Support:** Slovak & English  
- **Responsive Design** with Bootstrap 5  
- **Database Integration** using MariaDB  
- **Self-hosted** on a Raspberry Pi 5 with LAMP stack (Apache, PHP, MariaDB)
+- **User Roles:** Student, Teacher, Administrator  
+- **Course & Lesson Management**  
+- **Quiz System** with score tracking  
+- **Multilingual Support:** Slovak & English  
+- **Responsive Design** with Bootstrap 5  
+- **Database Integration** using MariaDB  
+- **Self-hosted** on a Raspberry Pi 5 with LAMP stack (Apache, PHP, MariaDB)
 
 ---
 
 ## Technologies Used
 
- **Frontend:** HTML, CSS, JavaScript, Bootstrap 5  
- **Backend:** PHP 8  
- **Database:** MariaDB  
- **Server Environment:** Raspberry Pi 5, LAMP stack: Raspberry Pi OS Lite, Apache2, MariaDB, PHP  
- **Local Development:** XAMPP  
+- **Frontend:** HTML, CSS, JavaScript, Bootstrap 5  
+- **Backend:** PHP 8  
+- **Database:** MariaDB  
+- **Server Environment:** Raspberry Pi 5, LAMP stack: Raspberry Pi OS Lite, Apache2, MariaDB, PHP  
+- **Local Development:** XAMPP  
 
 ---
 
