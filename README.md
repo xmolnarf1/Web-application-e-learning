@@ -5,6 +5,8 @@ This application was created as part of my Bachelor’s Thesis: “Webová aplik
 The aim was to design and implement an interactive platform for teaching the basics of cryptocurrencies, supporting multiple user roles, and hosting it on a Raspberry Pi 5 server.  
 It provides students, teachers, and administrators with tools for managing courses, lessons, and quizzes in an engaging way.
 
+www.xmolnarf1.com
+
 ---
 
 ## Features
